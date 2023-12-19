@@ -40,12 +40,7 @@ const [showAddForm, setShow] = useState(false)
     setTasks(taskss.filter((elem)=> elem.id !== id))
   }
 
-  // remove this from being a function
-  // adjust the check conditional rendering
-  function check(){
-    return taskss.lenght > 0
-  }
-
+  
   // set remider
   function highlight(id){
     console.log('remind', id);
