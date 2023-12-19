@@ -1,0 +1,16 @@
+.formSec{
+    /* display: block; */
+    margin-bottom: 10px;
+    /* align-items: left; */
+}
+
+.formDiv {
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 10px; */
+    
+    /* align-items: center; */
+    /* align-items: left; */
+    /* text-align: left; */
+}

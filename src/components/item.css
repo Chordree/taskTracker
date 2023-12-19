@@ -1,0 +1,21 @@
+.itemDiv {
+    text-align: left;
+    border: 2px solid;
+    margin-bottom: 4px;
+    padding-left: 5px;
+
+}
+
+/* h3{
+    
+    display: flex;
+    align-items: space-around;
+    
+} */
+
+.itG {
+    text-align: center;
+    border: 3px solid green;
+    margin-bottom: 4px;
+    padding-left: 5px;
+}
