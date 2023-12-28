@@ -14,22 +14,40 @@ function App() {
 
   const [taskss, setTasks] = useState( [
     {
-        id:1,
-        text:'first appointment',
-        time:'3:00pm',
-        reminder:true
+      id:1,
+      text:'first appointment',
+      time:'3:00pm',
+      reminder:true
     },
     {
-        id:2,
-        text:'this is just a random task',
-        time:'5th march 2:15pm',
-        reminder:true
+      id:2,
+      text:'this is just a random task',
+      time:'5th march, 2:15pm',
+      reminder:false
     },
     {
-        id:3,
-        text:'food shopping',
-        time:'5:00pm',
-        reminder:false
+      id:6,
+      text:'click on the AddTask button at the Top right',
+      time:'now',
+      reminder:false
+    },
+    {
+      id:4,
+      text:'double click me to toggle reminder',
+      time:'now',
+      reminder:true
+    },
+    {
+      id:3,
+      text:'food shopping',
+      time:'5:00pm',
+      reminder:true
+    },
+    {
+      id:5,
+      text:'click on the red part to cancle this task,',
+      time:'now',
+      reminder:false
     }
 ])
 
@@ -85,7 +103,6 @@ const [showAddForm, setShow] = useState(false)
 }
 // state pased down,
 // actions get  passed up ..
-// learn how to reneder if else in jsx without use of tenary
-// see why the condition is just rendering otherwise
-// see if conditional can also be used with map
+// check how to reneder if else in jsx without use of tenary
+
 export default App;

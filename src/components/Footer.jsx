@@ -7,7 +7,6 @@ function Footer () {
     return(
     
         <footer>
-            <h4> see the footer below</h4>
             <p>copyright &copy; 2022</p>
             {page.pathname === '/' && <Link to="/about">About page</Link>}
         </footer>
